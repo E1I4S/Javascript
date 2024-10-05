@@ -33,7 +33,7 @@ function canBuyProduct() {
     let producto=1500
     let preciocondescuento=producto*25/100
      let precio_producto=producto-preciocondescuento
-     let comprar=dinero_actual>=price_product
+     let comprar=dinero_actual>=price_producto
      console.log(buy && "Puedes comprar el producto" || "No puedes comprar el producto")
     
 }
